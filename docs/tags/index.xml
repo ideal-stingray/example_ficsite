@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>tags on archive of MY own</title>
+		<link>https://ideal-stingray.github.io/example_ficsite/tags/</link>
+		<description>Recent content in tags on archive of MY own</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+			<managingEditor>YOUR EMAIL (YOUR NAME)</managingEditor>
+		
+		
+			<webMaster>YOUR EMAIL (YOUR NAME)</webMaster>
+		
+		
+		
+			<lastBuildDate>Sun, 01 Nov 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ideal-stingray.github.io/example_ficsite/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>angst</title>
+				<link>https://ideal-stingray.github.io/example_ficsite/tags/angst/</link>
+				<pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate><author>YOUR EMAIL (YOUR NAME)</author>
+				<guid>https://ideal-stingray.github.io/example_ficsite/tags/angst/</guid>
+				<description>&#xA;</description>
+			</item>
+			<item>
+				<title>college au</title>
+				<link>https://ideal-stingray.github.io/example_ficsite/tags/college-au/</link>
+				<pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate><author>YOUR EMAIL (YOUR NAME)</author>
+				<guid>https://ideal-stingray.github.io/example_ficsite/tags/college-au/</guid>
+				<description>&#xA;</description>
+			</item>
+			<item>
+				<title>complete</title>
+				<link>https://ideal-stingray.github.io/example_ficsite/tags/complete/</link>
+				<pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate><author>YOUR EMAIL (YOUR NAME)</author>
+				<guid>https://ideal-stingray.github.io/example_ficsite/tags/complete/</guid>
+				<description>&#xA;</description>
+			</item>
+			<item>
+				<title>weesnaw/pebbit</title>
+				<link>https://ideal-stingray.github.io/example_ficsite/tags/weesnaw-pebbit/</link>
+				<pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate><author>YOUR EMAIL (YOUR NAME)</author>
+				<guid>https://ideal-stingray.github.io/example_ficsite/tags/weesnaw-pebbit/</guid>
+				<description>&lt;p&gt;If you want to use tags with &lt;code&gt;/&lt;/code&gt; in them, you’ll need to&#xA;do something like this. In the frontmatter of your work you would&#xA;write:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;tags = [&amp;quot;weesnaw-pebbit&amp;quot;, &amp;quot;au&amp;quot;, &amp;quot;complete&amp;quot;]&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Once you create the &lt;code&gt;weesnaw-pebbit/_index.md&lt;/code&gt; file and&#xA;make the title &lt;code&gt;&#34;weesnaw/pebbit&#34;&lt;/code&gt;, the tag will show up&#xA;properly as &lt;code&gt;&#34;weesnaw/pebbit&#34;&lt;/code&gt;. (Tags without the&#xA;&lt;code&gt;/&lt;/code&gt; character should Just Work without you needing to create&#xA;any files for them, although you can also do that if you want to write&#xA;text on the tag page, like this.)&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

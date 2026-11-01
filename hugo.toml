@@ -5,6 +5,7 @@ theme = "archive"  # This must be a theme under themes/
 enableEmoji = true
 titleCaseStyle = "none"
 publishDir = "docs"  # If you change this, you'll need to configure GitHub Pages to point at it
+enableRobotsTXT = true
 
 [params.author]
 # These should be your fannish pseud and email

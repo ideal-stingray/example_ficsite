@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>fandoms on archive of MY own</title>
+		<link>https://ideal-stingray.github.io/example_ficsite/fandoms/</link>
+		<description>Recent content in fandoms on archive of MY own</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+			<managingEditor>YOUR EMAIL (YOUR NAME)</managingEditor>
+		
+		
+			<webMaster>YOUR EMAIL (YOUR NAME)</webMaster>
+		
+		
+		
+			<lastBuildDate>Sun, 01 Nov 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ideal-stingray.github.io/example_ficsite/fandoms/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>my_awesome_fandom</title>
+				<link>https://ideal-stingray.github.io/example_ficsite/fandoms/my_awesome_fandom/</link>
+				<pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate><author>YOUR EMAIL (YOUR NAME)</author>
+				<guid>https://ideal-stingray.github.io/example_ficsite/fandoms/my_awesome_fandom/</guid>
+				<description>&#xA;</description>
+			</item>
+	</channel>
+</rss>

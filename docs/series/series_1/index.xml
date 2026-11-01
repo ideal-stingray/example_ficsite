@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Series 1 on archive of MY own</title>
+		<link>https://ideal-stingray.github.io/example_ficsite/series/series_1/</link>
+		<description>Recent content in Series 1 on archive of MY own</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+			<managingEditor>YOUR EMAIL (YOUR NAME)</managingEditor>
+		
+		
+			<webMaster>YOUR EMAIL (YOUR NAME)</webMaster>
+		
+		
+		
+			<lastBuildDate>Sun, 01 Nov 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ideal-stingray.github.io/example_ficsite/series/series_1/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>example work 1</title>
+				<link>https://ideal-stingray.github.io/example_ficsite/works/example_1/</link>
+				<pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate><author>YOUR EMAIL (YOUR NAME)</author>
+				<guid>https://ideal-stingray.github.io/example_ficsite/works/example_1/</guid>
+				<description>&lt;blockquote&gt;&#xA;&lt;p&gt;This is the summary of my example work. It’s in a quote block.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;I can also do nested quote blocks.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;I can nest them as deep as I want.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;details&gt;&#xA;&lt;summary&gt;&#xA;author’s note&#xA;&lt;/summary&gt;&#xA;Here is my author’s note. It’s in a HTML details block.&#xA;&lt;/details&gt;&#xA;&lt;p&gt;Fic goes here! Make sure to set &lt;code&gt;draft = false&lt;/code&gt; in the&#xA;frontmatter, or it won’t show up.&lt;/p&gt;&#xA;&lt;p&gt;This fic is in a series, &lt;code&gt;&#34;series_1&#34;&lt;/code&gt;. The&#xA;&lt;code&gt;series_weight&lt;/code&gt; setting in the frontmatter tells Hugo what&#xA;position to put it in on the series page. If you don’t set&#xA;&lt;code&gt;series_weight&lt;/code&gt;, Hugo will sort by date.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>example work 2</title>
+				<link>https://ideal-stingray.github.io/example_ficsite/works/example_2/</link>
+				<pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate><author>YOUR EMAIL (YOUR NAME)</author>
+				<guid>https://ideal-stingray.github.io/example_ficsite/works/example_2/</guid>
+				<description>&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;This is the summary for my example multichapter work.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr /&gt;&#xA;&lt;p&gt;Here I can write some fic-wide author’s notes for the multichapter&#xA;work, like warnings and links to the fic playlist.&lt;/p&gt;&#xA;&lt;p&gt;Note that I’ve put &lt;code&gt;multichapter = true&lt;/code&gt; in the&#xA;frontmatter. My theme uses this to change the chapter header layout so&#xA;you can switch between chapters.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

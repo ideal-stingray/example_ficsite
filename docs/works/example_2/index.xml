@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>example work 2 on archive of MY own</title>
+		<link>https://ideal-stingray.github.io/example_ficsite/works/example_2/</link>
+		<description>Recent content in example work 2 on archive of MY own</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+			<managingEditor>YOUR EMAIL (YOUR NAME)</managingEditor>
+		
+		
+			<webMaster>YOUR EMAIL (YOUR NAME)</webMaster>
+		
+		
+		
+			<lastBuildDate>Sun, 01 Nov 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ideal-stingray.github.io/example_ficsite/works/example_2/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>my chapter title</title>
+				<link>https://ideal-stingray.github.io/example_ficsite/works/example_2/chapter_01/</link>
+				<pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate><author>YOUR EMAIL (YOUR NAME)</author>
+				<guid>https://ideal-stingray.github.io/example_ficsite/works/example_2/chapter_01/</guid>
+				<description>&lt;p&gt;Hey, it’s a chapter!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>oooo chapter 2</title>
+				<link>https://ideal-stingray.github.io/example_ficsite/works/example_2/chapter_02/</link>
+				<pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate><author>YOUR EMAIL (YOUR NAME)</author>
+				<guid>https://ideal-stingray.github.io/example_ficsite/works/example_2/chapter_02/</guid>
+				<description>&lt;p&gt;Hey, it’s another chapter! I’ve used the &lt;code&gt;weight&lt;/code&gt; setting&#xA;in the frontmatter to tell Hugo what order to display the chapters&#xA;in.&lt;/p&gt;&#xA;&lt;details&gt;&#xA;&lt;summary&gt;&#xA;author’s note&#xA;&lt;/summary&gt;&#xA;This one can also have an author’s note at the end. What the hell, I’m&#xA;not driving.&#xA;&lt;/details&gt;</description>
+			</item>
+	</channel>
+</rss>
