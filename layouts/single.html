@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+  <h1>{{ .Title }}</h1>
+  {{ partial "chapter-header.html" . }}
+  {{ partial "fandoms.html" (dict "taxonomy" "fandoms" "page" .) }}
+  {{ partial "series.html" (dict "taxonomy" "series" "page" .) }}
+  {{ partial "tags.html" (dict "taxonomy" "tags" "page" .) }}
+
+  {{/* Table of Contents */}}
+  {{ $hasToC := .Params.toc | default false }}
+  {{ if $hasToC }}
+    <nav class="toc">
+      <strong>Table of contents</strong>
+      <div class="toc-content">
+        {{ .TableOfContents }}
+      </div>
+    </nav>
+  {{ end }}
+
+  {{ .Content }}
+
+  {{ partial "chapter-header.html" . }}
+{{ end }}

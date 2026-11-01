@@ -1,0 +1,17 @@
+{{- $page := .page }}
+{{- $taxonomy := .taxonomy }}
+
+{{- with $page.GetTerms $taxonomy }}
+  <div class="series-list">
+    {{ if (ge (len $taxonomy) 1) }} {{ $taxonomy }}: {{ end }}
+    <ul>
+      {{- range . }}
+        <li>
+          {{ with .Pages.Next $page }}<a href={{ .RelPermalink }}>← previous work</a> • {{ end }}
+          <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+          {{ with .Pages.Prev $page }} • <a href={{ .RelPermalink }}>next work →</a>{{ end }}
+        </li>
+      {{- end }}
+    </ul>
+  </div>
+{{- end }}

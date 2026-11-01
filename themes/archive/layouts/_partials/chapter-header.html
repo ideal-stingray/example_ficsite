@@ -1,0 +1,10 @@
+<div class="chapter-header">
+<div class="time">{{ partial "date.html" .Date }} • {{ .WordCount }} words</div>
+{{ if and .Parent .Parent.Params.multichapter | default false }}
+<div class="time">
+  {{ with .NextInSection }}<a href="{{ .RelPermalink }}">← previous</a>{{ end }}
+  {{ with and .NextInSection .PrevInSection }} • {{ end }}
+  {{ with .PrevInSection }}<a href="{{ .RelPermalink }}">next →</a>{{ end }}
+</div>
+{{ end }}
+</div>

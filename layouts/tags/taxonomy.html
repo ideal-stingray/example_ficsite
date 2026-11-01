@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  <div class="time-list">
+    <ul>
+      {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+      <li>
+        <div><a href="{{ $taxonomy.Page.Permalink }}">#{{ $taxonomy.Page.Title }} ({{ $taxonomy.Count }})</a></div>
+      </li>
+      {{ end }}
+    </ul>
+{{ end }}

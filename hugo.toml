@@ -1,3 +1,70 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = "https://ideal-stingray.github.io/example_ficsite/"
+locale = "en-US"
+title = "archive of MY own"  # Change this to be whatever you want
+theme = "archive"  # This must be a theme under themes/
+enableEmoji = true
+titleCaseStyle = "none"
+publishDir = "docs"  # If you change this, you'll need to configure GitHub Pages to point at it
+
+[params.author]
+# These should be your fannish pseud and email
+name = "YOUR NAME"
+email = "YOUR EMAIL"
+
+[menus]
+# You can change these to be whatever you want.  The "weight" determines what order they
+# appear in.  "series", "fandoms", and "tags" are taxonomies that I've set up for this site.
+  [[menus.main]]
+    name = 'home'
+    pageRef = '/'
+    weight = 10
+
+  [[menus.main]]
+    name = 'about'
+    url = '/about/'
+    weight = 20
+
+  [[menus.main]]
+    name = 'works'
+    pageRef = '/works/'
+    weight = 30
+
+  [[menus.main]]
+    name = 'series'
+    pageRef = '/series/'
+    weight = 40
+
+  [[menus.main]]
+    name = 'fandoms'
+    pageRef = '/fandoms/'
+    weight = 50
+
+  [[menus.main]]
+    name = 'tags'
+    pageRef = '/tags/'
+    weight = 60
+
+[taxonomies]
+  tag = "tags"
+  fandom = "fandoms"
+  series = "series"
+
+# Configuration for how Hugo extracts the date.  You probably won't need to change this.
+[frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+  lastmod = [':git', 'lastmod', 'date', 'publishDate']
+  publishDate = ['publishDate', 'date']
+
+# Hugo's default markdown renderer is Goldmark, which unfortunately fails to render any
+# markdown syntax inside HTML tags.  This is why I recommend using Pandoc as your default
+# markdown renderer, but you can set your defaultMarkdownHandler to 'goldmark' if you want.
+[markup]
+  defaultMarkdownHandler = 'pandoc'
+
+# You can use shortcodes for a lot of things but I basically only use them for audio embeds.
+[security]
+  enableInlineShortcodes = true
+  [security.exec]
+    # This adds pandoc to the default security configuration, which is necessary if you
+    # want to use it as your markdown renderer.
+    allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^npx$', '^postcss$', '^tailwindcss$', '^pandoc$']

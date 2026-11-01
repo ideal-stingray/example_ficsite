@@ -10,6 +10,10 @@ tags = ["weesnaw-pebbit", "college au", "complete"]
 +++
 
 > This is the summary of my example work.  It's in a quote block.
+>
+>> I can also do nested quote blocks.
+>>
+>>> I can nest them as deep as I want.
 
 <details>
 <summary>author's note</summary>

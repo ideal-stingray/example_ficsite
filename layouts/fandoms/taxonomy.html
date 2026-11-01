@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  <div class="time-list">
+    <ul>
+      {{ range .Data.Terms.Alphabetical }}
+      <li>
+        <div><a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a></div>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}
