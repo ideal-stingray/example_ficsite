@@ -2,7 +2,7 @@
 
 In the wake of the current AO3 outage, many of us are thinking, _Fuck, I should've had a backup option for hosting my fanfiction_.  Well.  Many of _you_ are thinking this.  [_I_ already had one](https://realvirtuality.net/fic/).
 
-This is a dirt-simple static site built with the Hugo static site generator.  I host mine on a DigitalOcean droplet (a virtual Linux box in ~the cloud~) for about $5/month but static sites are simple enough you can also yeet them up on GitHub Pages for free.  It's easy!  It's fun!  It's a great way to procrastinate on your WIPs!  Take my hand, please, and make an archive of _your very own_.
+This is a dirt-simple static site built with the Hugo static site generator.  I host mine on a DigitalOcean droplet (a virtual Linux box in \~the cloud\~) for about $5/month but static sites are simple enough you can also yeet them up on GitHub Pages for free.  It's easy!  It's fun!  It's a great way to procrastinate on your WIPs!  Take my hand, please, and make an archive of _your very own_.
 
 ## Prerequisites
 
